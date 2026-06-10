@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Coding Review</title>
+    <link rel="stylesheet" href="securestyle.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🔐 Secure Coding Review Tool</h1>
+
+    <p class="subtitle">
+        Analyze source code for common security vulnerabilities
+    </p>
+
+    <textarea id="codeInput" placeholder="Paste your code here..."></textarea>
+
+    <div class="buttons">
+        <button onclick="loadSample()">Load Sample Code</button>
+        <button onclick="analyzeCode()">Analyze Code</button>
+    </div>
+
+    <div class="score-box">
+        <h2>Security Score</h2>
+        <div id="score">100/100</div>
+    </div>
+
+    <div id="results"></div>
+
+</div>
+
+<script src="securescript.js"></script>
+
+</body>
+</html>
